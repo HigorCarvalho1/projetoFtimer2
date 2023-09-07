@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    font-size: 62.5%rem;
+}
+
+body{
+    font-size: 1.6rem;
+    background: rgb(243, 240, 240);
+}
+.light{
+    display: none;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 19.2rem;
+}
+main span{
+    font-family: 'Roboto', sans-serif;
+    margin-left: .8rem;
+    font-size: 12.6rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #323238;
+    text-align: center;
+    
+    margin-bottom: 1.7rem;
+}
+.comandos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4.0rem;
+}
+.comandos img{
+    width: 4.8rem;
+    height: 4.8rem;
+    cursor: pointer;
+}
+.comandos img:hover{
+    transform: scale(1.1);
+}
+.comandos .pause{
+    width: 5.5rem ;
+    height: 5.5rem;
+}
+
+.sounds img{
+    width: 13.8rem;
+    height: 15.2rem;
+    cursor: pointer;
+}
+.sounds img:hover{
+    transform: scale(1.1);
+}
+
+.card1,
+.card11,
+.card3,
+.card33{
+    margin-right: 3.2rem;  
+}
+.card1,
+.card11,
+.card2,
+.card22{
+    margin-bottom: 3.2rem;
+}
+@media ((max-width: 900px)){
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 4.0rem;
+    }
+    main span{
+        font-size: 5.6rem;
+        margin-left: 1.8rem;
+    }
+    .comandos img{
+        width: 2.5rem;
+        height: 2.5rem;
+        
+    }
+
+    main .sounds{
+        display: flex;
+        flex-direction: row;
+        gap: 1.0rem;
+    }
+    .sounds img{
+        width: 4.5rem;
+        height: 4.5rem;
+        margin: auto;
+    }
+    .comandos .pause{
+        width: 2.5rem ;
+        height: 2.5rem;
+    }
+
+    .card3,
+    .card33{
+    margin-left:-1.8rem;  
+   }
+    
+    
+}
+
+
+
+
+
